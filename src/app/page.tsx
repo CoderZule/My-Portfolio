@@ -7,6 +7,8 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import Image from 'next/image';
+
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -30,7 +32,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-            <Avatar className="size-28 border transition-transform duration-300 ease-in-out hover:scale-110">
+              <Avatar className="size-28 border transition-transform duration-300 ease-in-out hover:scale-110">
 
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
@@ -174,9 +176,11 @@ export default function Page() {
                   <BlurFade key={cert.title} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
                     <li className="border rounded-lg p-4 flex items-center justify-between gap-4">
                       <div className="h-10 w-30 rounded-full overflow-hidden border">
-                        <img
+                        <Image
                           src={cert.image}
                           alt={cert.issuer}
+                          width={40}
+                          height={40}
                           className="aspect-square h-full w-full object-contain"
                         />
                       </div>
@@ -216,7 +220,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'm always open to connecting on {" "}
+              I&apos;m always open to connecting on {" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
