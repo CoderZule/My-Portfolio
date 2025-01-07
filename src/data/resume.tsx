@@ -261,7 +261,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/MyDoctors.jpg",
+      image: "/myDoctors.jpg",
       video:
         "",
     },
