@@ -154,7 +154,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/apiSurv.png",
+      image: "/apiSurv.jpg",
       video: "",
 
     },
@@ -183,7 +183,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/iGoldProperty.png",
+      image: "/iGoldProperty.jpg",
       video: "",
     },
     {
@@ -207,7 +207,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/GarageVParrot.png",
+      image: "/GarageVParrot.jpg",
       video: "",
     },
     
@@ -233,7 +233,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/MyTourismTunisia.png",
+      image: "/MyTourismTunisia.jpg",
       video: "",
     },
     
@@ -257,7 +257,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/MyDoctors.png",
+      image: "/MyDoctors.jpg",
       video:
         "",
     },
@@ -268,7 +268,7 @@ export const DATA = {
   certifications: [
     {
       title: "Introduction to Software Engineering",
-      issuer: "IBM",
+      issuer: "IBM - Coursera",
       date: "Jan 2025",
       image: "/IBM.png",
       pdfUrl: "/Certif1.pdf",
@@ -289,7 +289,7 @@ export const DATA = {
     },
     {
       title: "Scrum Fundamentals Certified (SFC)",
-      issuer: "SCRUMstudy",
+      issuer: "SCRUMstudy™",
       date: "Mar 2024",
       image: "/SMStudy.png",
       pdfUrl: "/Certif4.pdf",
@@ -297,7 +297,7 @@ export const DATA = {
 
     {
       title: "UI/UX Design Fundamentals",
-      issuer: "SCRUMstudy",
+      issuer: "Orange Digital Center Tunisie",
       date: "Oct 2022",
       image: "/orange.png",
       pdfUrl: "/Certif5.pdf",
