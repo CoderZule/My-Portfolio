@@ -11,7 +11,7 @@ export const DATA = {
     "Full Stack Web and Mobile App Developer, I love building creative and practical soulutions that make a difference.",
   summary:
     "I am a Full Stack Web and Mobile App Developer with a strong track record in building innovative, scalable, and user-centric web and mobile solutions. My expertise spans modern technologies like React, Next.js, Node.js, Laravel, React Native, and SwiftUI. Passionate about continuous learning, I stay updated on emerging technologies. I’m always open to new collaborations and opportunities to contribute my skills while growing professionally.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "Images/me.jpg",
   skills: [
     "JavaScript",
     "Tailwind CSS",
@@ -87,7 +87,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Mobile App Developer Intern",
-      logoUrl: "/cfpa_takelsa.png",
+      logoUrl: "/images/cfpa_takelsa.png",
       start: "Feb 2024",
       end: "Jul 2024",
       description:
@@ -99,7 +99,7 @@ export const DATA = {
       href: "https://www.topnet.tn",
       location: "Hybrid",
       title: "Full Stack Developer Intern",
-      logoUrl: "/topnet.png",
+      logoUrl: "/images/topnet.png",
       start: "Feb 2022",
       end: "May 2022",
       description:
@@ -112,7 +112,7 @@ export const DATA = {
       school: "Higher Institute of Technological Studies of Rades",
       href: "https://www.isetr.rnu.tn",
       degree: "Master's degree in Mobile Application Development",
-      logoUrl: "/rades.png",
+      logoUrl: "/images/rades.png",
       start: "2022",
       end: "2024",
     },
@@ -120,7 +120,7 @@ export const DATA = {
       school: "Higher Institute of Technological Studies of Rades",
       href: "https://www.isetr.rnu.tn",
       degree: "Bachelor's degree in Information Technology",
-      logoUrl: "/rades.png",
+      logoUrl: "/images/rades.png",
       start: "2019",
       end: "2022",
     },
@@ -158,7 +158,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/apiSurv.jpg",
+      image: "/images/apiSurv.jpg",
       video: "",
 
     },
@@ -187,7 +187,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/iGoldProperty.jpg",
+      image: "/images/iGoldProperty.jpg",
       video: "",
     },
     {
@@ -211,7 +211,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/GarageVParrot.jpg",
+      image: "/images/GarageVParrot.jpg",
       video: "",
     },
     
@@ -237,7 +237,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/MyTourismTunisia.jpg",
+      image: "/images/MyTourismTunisia.jpg",
       video: "",
     },
     
@@ -261,7 +261,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/myDoctors.jpg",
+      image: "/images/myDoctors.jpg",
       video:
         "",
     },
@@ -271,48 +271,55 @@ export const DATA = {
   ],
   certifications: [
     {
+      title: "MongoDB Node.js Developer Path",
+      issuer: "MongoDB, Inc",
+      date: "Jan 2025",
+      image: "/images/mongodb.jpg",
+      pdfUrl: "/Certificates/MongoDB_NodeJS_Certif.pdf",
+    },
+    {
       title: "Introduction to Software Engineering",
       issuer: "IBM - Coursera",
       date: "Jan 2025",
-      image: "/IBM.png",
-      pdfUrl: "/Certif1.pdf",
+      image: "/images/IBM.png",
+      pdfUrl: "/Certificates/IBM_SoftwareEngineering_Certif.pdf",
     },
     {
       title: "Meta Hacker Cup 2024",
       issuer: "Meta",
       date: "Oct 2024",
-      image: "/Meta.png",
-      pdfUrl: "/Certif2.pdf",
+      image: "/images/Meta.png",
+      pdfUrl: "/Certificates/Meta_Hacker_Certif.pdf",
     },
     {
       title: "JavaScript Algorithms and Data Structures (Beta)",
       issuer: "freeCodeCamp",
       date: "Sep 2024",
-      image: "/freeCodeCamp.png",
-      pdfUrl: "/Certif3.pdf",
+      image: "/images/freeCodeCamp.png",
+      pdfUrl: "/Certificates/freeCodeCamp_JS_Certif.pdf",
     },
     {
       title: "Scrum Fundamentals Certified (SFC)",
       issuer: "SCRUMstudy™",
       date: "Mar 2024",
-      image: "/SMStudy.png",
-      pdfUrl: "/Certif4.pdf",
+      image: "/images/SMStudy.png",
+      pdfUrl: "/Certificates/SCRUMstudy_SFC_Certif.pdf",
     },
 
     {
       title: "UI/UX Design Fundamentals",
       issuer: "Orange Digital Center Tunisie",
       date: "Oct 2022",
-      image: "/orange.png",
-      pdfUrl: "/Certif5.pdf",
+      image: "/images/orange.png",
+      pdfUrl: "/Certificates/OrangeDigitalCenter_UIUX_Certif.pdf",
     },
  
     {
       title: "The Fundamentals of Digital Marketing",
       issuer: "Google Digital Garage",
       date: "Oct 2020",
-      image: "/google.png",
-      pdfUrl: "/Certif6.pdf",
+      image: "/images/google.png",
+      pdfUrl: "/Certificates/GoogleDigitalGarage_DigitalMarketing_Certif.pdf",
     },
  
   ],
