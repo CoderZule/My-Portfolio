@@ -271,6 +271,13 @@ export const DATA = {
   ],
   certifications: [
     {
+      title: "Introduction to Cloud Computing",
+      issuer: "IBM - Coursera",
+      date: "Jan 2025",
+      image: "/Images/IBM.png",
+      pdfUrl: "/Certificates/IBM_CloudComputing_Certif.pdf",
+    },
+    {
       title: "MongoDB Node.js Developer Path",
       issuer: "MongoDB, Inc",
       date: "Jan 2025",
