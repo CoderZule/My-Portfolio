@@ -35,6 +35,7 @@ export const DATA = {
     "Firebase",
     "MySQL",
     "MVC",
+    "MVCS",
     "MVVM",
     "Jira",
     "Git",
