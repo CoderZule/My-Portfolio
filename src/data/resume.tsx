@@ -272,6 +272,13 @@ export const DATA = {
   ],
   certifications: [
     {
+      title: "Getting Started with Git and Github",
+      issuer: "IBM - Coursera",
+      date: "Feb 2025",
+      image: "/Images/IBM.png",
+      pdfUrl: "/Certificates/Git_Github_Certif.pdf",
+    },
+    {
       title: "Introduction to Cloud Computing",
       issuer: "IBM - Coursera",
       date: "Jan 2025",
