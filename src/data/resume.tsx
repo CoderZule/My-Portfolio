@@ -272,18 +272,11 @@ export const DATA = {
   ],
   certifications: [
     {
-      title: "Getting Started with Git and Github",
-      issuer: "IBM - Coursera",
-      date: "Feb 2025",
+      title: "IBM Full Stack Software Developer Professional Certificate",
+      issuer: "IBM",
+      date: "Apr 2025",
       image: "/Images/IBM.png",
-      pdfUrl: "/Certificates/Git_Github_Certif.pdf",
-    },
-    {
-      title: "Introduction to Cloud Computing",
-      issuer: "IBM - Coursera",
-      date: "Jan 2025",
-      image: "/Images/IBM.png",
-      pdfUrl: "/Certificates/IBM_CloudComputing_Certif.pdf",
+      pdfUrl: "/Certificates/FullStack_Developer_Certif.pdf",
     },
     {
       title: "MongoDB Node.js Developer Path",
@@ -293,14 +286,7 @@ export const DATA = {
       pdfUrl: "/Certificates/MongoDB_NodeJS_Certif.pdf",
     },
     {
-      title: "Introduction to Software Engineering",
-      issuer: "IBM - Coursera",
-      date: "Jan 2025",
-      image: "/Images/IBM.png",
-      pdfUrl: "/Certificates/IBM_SoftwareEngineering_Certif.pdf",
-    },
-    {
-      title: "Meta Hacker Cup 2024",
+      title: "Meta Hacker Cup 2024 Participation",
       issuer: "Meta",
       date: "Oct 2024",
       image: "/Images/Meta.png",
@@ -314,13 +300,26 @@ export const DATA = {
       pdfUrl: "/Certificates/freeCodeCamp_JS_Certif.pdf",
     },
     {
+      title: "Responsive Web Design",
+      issuer: "freeCodeCamp",
+      date: "Sep 2024",
+      image: "/Images/freeCodeCamp.png",
+      pdfUrl: "/Certificates/freeCodeCamp_RD_Certif.pdf",
+    },
+    {
+      title: "Scrum For Operations & DevOps Fundamentals Certified (SODFC)",
+      issuer: "SCRUMstudy™",
+      date: "Apr 2024",
+      image: "/Images/SMStudy.png",
+      pdfUrl: "/Certificates/SCRUMstudy_SODFC_Certif.pdf",
+    },
+    {
       title: "Scrum Fundamentals Certified (SFC)",
       issuer: "SCRUMstudy™",
       date: "Mar 2024",
       image: "/Images/SMStudy.png",
       pdfUrl: "/Certificates/SCRUMstudy_SFC_Certif.pdf",
     },
-
     {
       title: "UI/UX Design Fundamentals",
       issuer: "Orange Digital Center Tunisie",
