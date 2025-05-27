@@ -261,6 +261,11 @@ export const DATA = {
         "Mailtrap"
       ],
       links: [
+           {
+          type: "Website",
+          href: "https://mydoctors.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/CoderZule/MyDoctors",
