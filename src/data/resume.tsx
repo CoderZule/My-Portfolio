@@ -267,6 +267,37 @@ export const DATA = {
         "",
     },
 
+    {
+      title: "GarageVParrot",
+      href: "",
+      dates: "Oct 2020 - Dec 2020",
+      active: true,
+      description:
+        "A user-friendly web app for a French garage that streamlines repair bookings, communication, and the search for quality used cars.",
+      technologies: [
+        "Laravel",
+        "Vue.js",
+        "MySQL"
+      ],
+      links: [
+       {
+          type: "Website",
+          href: "https://garagevparrot.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+
+        {
+          type: "Source",
+          href: "https://github.com/CoderZule/GarageVParrot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+
+
 
 
   ],
