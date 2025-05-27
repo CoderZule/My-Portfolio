@@ -40,12 +40,12 @@ export const DATA = {
     "Jira",
     "Git",
     "Figma",
-    "Docker" 
- 
- 
+    "Docker"
+
+
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" } 
+    { href: "/", icon: HomeIcon, label: "Home" }
   ],
   contact: {
     email: "mariem.derbali20@gmail.com",
@@ -71,7 +71,7 @@ export const DATA = {
         icon: Icons.codeforces,
         navbar: true,
       },
- 
+
       email: {
         name: "Send Email",
         url: "mailto:mariem.derbali20@gmail.com",
@@ -106,7 +106,7 @@ export const DATA = {
       description:
         "Developing a web platform for internship management using Laravel for the backend, ReactJS for the frontend, and MongoDB Atlas for data storage, handling over 500 internship profiles. Building RESTful APIs to reduce response times by 40% and improve data exchange efficiency. Migrating existing data to a new system, boosting user engagement and satisfaction by 25%.",
     },
-   
+
   ],
   education: [
     {
@@ -125,7 +125,7 @@ export const DATA = {
       start: "2019",
       end: "2022",
     },
- 
+
   ],
   projects: [
     {
@@ -145,7 +145,7 @@ export const DATA = {
         "Socket.io",
         "MongoDB",
         "Firebase Storage",
-   
+
       ],
       links: [
         {
@@ -181,7 +181,7 @@ export const DATA = {
         "XCTest",
       ],
       links: [
-  
+
         {
           type: "Source",
           href: "https://github.com/CoderZule/iGoldProperty",
@@ -205,7 +205,12 @@ export const DATA = {
         "Mailtrap"
       ],
       links: [
-   
+        {
+          type: "Website",
+          href: "https://garagevparrot.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+
         {
           type: "Source",
           href: "https://github.com/CoderZule/GarageVParrot",
@@ -215,7 +220,7 @@ export const DATA = {
       image: "/Images/GarageVParrot.jpg",
       video: "",
     },
-    
+
     {
       title: "My Tourism Tunisia",
       href: "",
@@ -228,10 +233,10 @@ export const DATA = {
         "Android",
         "Firebase",
         "SQLite"
-    
+
       ],
       links: [
-  
+
         {
           type: "Source",
           href: "https://github.com/CoderZule/MyTourismTunisia",
@@ -241,7 +246,7 @@ export const DATA = {
       image: "/Images/MyTourismTunisia.jpg",
       video: "",
     },
-    
+
     {
       title: "My Doctors",
       href: "",
@@ -266,39 +271,6 @@ export const DATA = {
       video:
         "",
     },
-
-    {
-      title: "GarageVParrot",
-      href: "",
-      dates: "Oct 2020 - Dec 2020",
-      active: true,
-      description:
-        "A user-friendly web app for a French garage that streamlines repair bookings, communication, and the search for quality used cars.",
-      technologies: [
-        "Laravel",
-        "Vue.js",
-        "MySQL"
-      ],
-      links: [
-       {
-          type: "Website",
-          href: "https://garagevparrot.up.railway.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-
-        {
-          type: "Source",
-          href: "https://github.com/CoderZule/GarageVParrot",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
-
-
-
 
   ],
   certifications: [
@@ -358,7 +330,7 @@ export const DATA = {
       image: "/Images/orange.png",
       pdfUrl: "/Certificates/OrangeDigitalCenter_UIUX_Certif.pdf",
     },
- 
+
     {
       title: "The Fundamentals of Digital Marketing",
       issuer: "Google Digital Garage",
@@ -366,7 +338,7 @@ export const DATA = {
       image: "/Images/google.png",
       pdfUrl: "/Certificates/GoogleDigitalGarage_DigitalMarketing_Certif.pdf",
     },
- 
+
   ],
- 
+
 } as const;
