@@ -170,10 +170,10 @@ export default function Page() {
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch">
               {DATA.certifications.map((cert, id) => (
                 <BlurFade key={cert.title} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
-                  <li className="border rounded-lg p-4 flex items-center justify-between gap-4">
+                  <li className="h-full border rounded-lg p-4 flex items-center justify-between gap-4">
                     <div className="h-10 w-30 rounded-full overflow-hidden border">
                       <Image
                         src={cert.image}
