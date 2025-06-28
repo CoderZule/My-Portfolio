@@ -170,41 +170,39 @@ export default function Page() {
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <div className="space-y-4">
-              <ul className="space-y-3">
-                {DATA.certifications.map((cert, id) => (
-                  <BlurFade key={cert.title} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
-                    <li className="border rounded-lg p-4 flex items-center justify-between gap-4">
-                      <div className="h-10 w-30 rounded-full overflow-hidden border">
-                        <Image
-                          src={cert.image}
-                          alt={cert.issuer}
-                          width={40}
-                          height={40}
-                          className="aspect-square h-full w-full object-contain"
-                        />
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {DATA.certifications.map((cert, id) => (
+                <BlurFade key={cert.title} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
+                  <li className="border rounded-lg p-4 flex items-center justify-between gap-4">
+                    <div className="h-10 w-30 rounded-full overflow-hidden border">
+                      <Image
+                        src={cert.image}
+                        alt={cert.issuer}
+                        width={40}
+                        height={40}
+                        className="aspect-square h-full w-full object-contain"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <div className="font-medium">{cert.title}</div>
+                      <div className="text-sm text-muted-foreground">
+                        {cert.issuer} • {cert.date}
                       </div>
-                      <div className="flex-1">
-                        <div className="font-medium">{cert.title}</div>
-                        <div className="text-sm text-muted-foreground">
-                          {cert.issuer} • {cert.date}
-                        </div>
-                      </div>
+                    </div>
+                    <a
+                      href={cert.pdfUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:text-blue-700 text-xl"
+                      title="View Certification"
+                    >
+                      🔗
+                    </a>
+                  </li>
+                </BlurFade>
+              ))}
+            </ul>
 
-                      <a
-                        href={cert.pdfUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500 hover:text-blue-700 text-xl"
-                        title="View Certification"
-                      >
-                        🔗
-                      </a>
-                    </li>
-                  </BlurFade>
-                ))}
-              </ul>
-            </div>
           </BlurFade>
         </div>
       </section>
@@ -220,7 +218,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I&apos;m always open to connecting on {" "}
+                I&apos;m always open to connecting on {" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
