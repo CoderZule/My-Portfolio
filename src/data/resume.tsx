@@ -102,11 +102,11 @@ export const DATA = {
       href: "https://avfa.agrinet.tn/centre_de_formation/centre-de-formation-professionnelle-agricole-de-takelsa/",
       badges: [],
       location: "Remote",
-      title: "Mobile App Developer Intern - 🐝 Beekeeping Management Platform",
+      title: "Mobile App Developer Intern - 🐝 Beekeeping Management App",
       logoUrl: "/Images/cfpa_takelsa.png",
       start: "Feb 2024",
       end: "Jul 2024",
-      description: 'Built a cross-platform beekeeping app with React Native and Expo, enabling hive tracking, QR-based inspections, financial logging, and real-time weather insights. Developed a scalable backend with Node.js, Express, and MongoDB Atlas, and integrated Firebase Storage for media management. Also created a React.js web portal for admin control, focusing on performance, scalability, and user-centric design.'
+      description: 'Built a cross-platform beekeeping mobile app with React Native and Expo, enabling hive tracking, QR-based inspections, financial logging, and real-time weather insights. Developed a scalable backend with Node.js, Express, and MongoDB Atlas, and integrated Firebase Storage for media management. Also created a React.js web portal for admin control, focusing on performance, scalability, and user-centric design.'
     },
     {
       company: "Topnet",
