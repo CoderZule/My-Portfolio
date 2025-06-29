@@ -10,40 +10,61 @@ export const DATA = {
   description:
     "Full Stack Web and Mobile App Developer, I love building creative and practical soulutions that make a difference.",
   summary:
-    "I am a Full Stack Web and Mobile App Developer with a strong track record in building innovative, scalable, and user-centric web and mobile solutions. My expertise spans modern technologies like React, Next.js, Node.js, Laravel, React Native, and SwiftUI. Passionate about continuous learning, I stay updated on emerging technologies. I’m always open to new collaborations and opportunities to contribute my skills while growing professionally.",
+    "I am a Full Stack Web and Mobile App Developer with a strong track record in building innovative, scalable, and user-centric solutions. My expertise spans modern technologies including React, Next.js, Node.js, Laravel, React Native, and SwiftUI. Passionate about continuous learning, I stay up to date with emerging tech trends to deliver high-impact digital experiences. I’m currently working on a major project set to launch in 2026, combining AI and mobile technologies to address real-world challenges. I’m always open to new collaborations where I can contribute my skills and continue growing professionally.",
   avatarUrl: "Images/me.jpg",
   skills: [
+    // Frontend Development
     "JavaScript",
-    "Tailwind CSS",
-    "Chakra UI",
+    "TypeScript",
     "React",
     "Vue.js",
     "Next.js",
-    "Typescript",
-    "Laravel",
+    "Angular",
+    "Tailwind CSS",
+    "Chakra UI",
+    "Bootstrap",
+    "HTML",
+    "Figma",
+
+    // Backend Development
     "Node.js",
+    "Express",
+    "PHP",
+    "Laravel",
+    "Spring Boot",
     "Python",
     "Java",
-    "Android",
+
+    // Mobile Development
     "React Native",
     "Expo",
-    "IOS",
+    "Kotlin",
     "Swift",
     "SwiftUI",
-    "Kotlin",
+    "UIKit",
+    "Android",
+    "iOS",
+
+    // Databases
     "MongoDB",
-    "Firebase",
+    "CouchDB",
     "MySQL",
+    "Firebase",
+
+    // Architecture & Patterns
     "MVC",
-    "MVCS",
     "MVVM",
-    "Jira",
+
+    // Tools & DevOps
     "Git",
-    "Figma",
-    "Docker"
-
-
-  ],
+    "GitHub Actions",
+    "Docker",
+    "Jenkins",
+    "Jira",
+    "Postman",
+    "JUnit"
+  ]
+  ,
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" }
   ],
@@ -65,12 +86,6 @@ export const DATA = {
 
         navbar: true,
       },
-      CodeForces: {
-        name: "CodeForces",
-        url: "https://codeforces.com/profile/CoderZule/",
-        icon: Icons.codeforces,
-        navbar: true,
-      },
 
       email: {
         name: "Send Email",
@@ -87,26 +102,24 @@ export const DATA = {
       href: "https://avfa.agrinet.tn/centre_de_formation/centre-de-formation-professionnelle-agricole-de-takelsa/",
       badges: [],
       location: "Remote",
-      title: "Mobile App Developer Intern",
+      title: "Mobile App Developer Intern - 🐝 Beekeeping Management Platform",
       logoUrl: "/Images/cfpa_takelsa.png",
       start: "Feb 2024",
       end: "Jul 2024",
-      description:
-        "Developing a beekeeping mobile app with React Native, integrating real-time weather data via OpenWeatherMap API. Building the backend with NodeJS and Express, utilizing MongoDB Atlas for efficient data storage. Implementing QR code inspections, financial tracking, and statistical analysis features. Using Firebase Storage for media gallery management and Expo for seamless mobile deployment. Creating a web admin portal with ReactJS for user management and deploying the app for scalability and reliability.",
+      description: 'Built a cross-platform beekeeping app with React Native and Expo, enabling hive tracking, QR-based inspections, financial logging, and real-time weather insights. Developed a scalable backend with Node.js, Express, and MongoDB Atlas, and integrated Firebase Storage for media management. Also created a React.js web portal for admin control, focusing on performance, scalability, and user-centric design.'
     },
     {
       company: "Topnet",
       badges: [],
       href: "https://www.topnet.tn",
       location: "Hybrid",
-      title: "Full Stack Developer Intern",
+      title: "Full-Stack Web Developer Intern – 🎓 Internship Management System",
       logoUrl: "/Images/topnet.png",
       start: "Feb 2022",
       end: "May 2022",
       description:
-        "Developing a web platform for internship management using Laravel for the backend, ReactJS for the frontend, and MongoDB Atlas for data storage, handling over 500 internship profiles. Building RESTful APIs to reduce response times by 40% and improve data exchange efficiency. Migrating existing data to a new system, boosting user engagement and satisfaction by 25%.",
-    },
-
+        "Developed a full-stack web platform for managing over 500 internship profiles using Laravel for the backend, React.js for the frontend, and MongoDB Atlas for scalable data storage. Designed RESTful APIs to improve data exchange efficiency and reduce response times by 40%. Successfully migrated legacy data to the new system, resulting in a 25% boost in user engagement and overall satisfaction. Focused on building a reliable, intuitive, and maintainable system tailored to the needs of students and administrators.",
+    }
   ],
   education: [
     {
@@ -177,7 +190,7 @@ export const DATA = {
         "Firebase",
         "IOS",
         "cocoapods",
-        "MVVM",
+        "MVVM architecture",
         "XCTest",
       ],
       links: [
@@ -201,8 +214,7 @@ export const DATA = {
       technologies: [
         "Laravel",
         "Vue.js",
-        "MySQL",
-        "Mailtrap"
+        "MySQL"
       ],
       links: [
         {
@@ -258,10 +270,10 @@ export const DATA = {
         "Laravel",
         "Vue.js",
         "MySQL",
-        "Mailtrap"
+      
       ],
       links: [
-           {
+        {
           type: "Website",
           href: "https://mydoctors.up.railway.app/",
           icon: <Icons.globe className="size-3" />,
