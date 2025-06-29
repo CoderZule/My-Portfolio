@@ -8,7 +8,7 @@ export const DATA = {
   location: "Tunis",
   locationLink: "https://www.google.com/maps/place/tunis",
   description:
-    "Full Stack Web and Mobile App Developer, I love building creative and practical soulutions that make a difference.",
+    "Full Stack Web and Mobile App Developer passionate about creating innovative and practical solutions that drive real impact.",
   summary:
     "I am a Full Stack Web and Mobile App Developer with a strong track record in building innovative, scalable, and user-centric solutions. My expertise spans modern technologies including React, Next.js, Node.js, Laravel, React Native, and SwiftUI. Passionate about continuous learning, I stay up to date with emerging tech trends to deliver high-impact digital experiences. I’m currently working on a major project set to launch in 2026, combining AI and mobile technologies to address real-world challenges. I’m always open to new collaborations where I can contribute my skills and continue growing professionally.",
   avatarUrl: "Images/me.jpg",
