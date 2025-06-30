@@ -69,7 +69,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" }
   ],
   contact: {
-    email: "mariem.derbali20@gmail.com",
+    email: "mariemderbali.dev@gmail.com",
     tel: "+21620951573",
     social: {
       GitHub: {
@@ -81,7 +81,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/mari99/",
+        url: "https://www.linkedin.com/in/mderbali/",
         icon: Icons.linkedin,
 
         navbar: true,
